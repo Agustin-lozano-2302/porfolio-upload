@@ -26,7 +26,7 @@ export default function Header() {
             :
             <img className="h-10 m-5" src="/images/burger-menu.svg" alt="menu" onClick={() => setOpenMenu(!openMenu)} />
           }
-          {openMenu && <div className="flex flex-col w-44 absolute left-[-50px] max-h-72 gap-4 justify-center animate-fade-down animate-duration-1000 bg-white">
+          {openMenu && <div className="flex flex-col w-44 absolute left-[-50px] max-h-72 gap-4 justify-center animate-fade-down animate-duration-1000 bg-white p-3">
             <Headling link="#about-me" fontW="font-light" title={"Sobre mí"} />
             <Headling link="#skills" fontW="font-light" title={"Experiencia"} />
             {/* <Headling link="#projects" fontW="font-light" title={"Proyectos"} /> */}
