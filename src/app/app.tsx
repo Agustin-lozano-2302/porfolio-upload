@@ -38,7 +38,8 @@ export default function App({ children }: { children: ReactNode }) {
 
   return (
     <I18nextProvider i18n={i18next}>
-      <button style={{ position: "fixed", top: "20px", right: "20px" }}
+      <button
+        className="fixed top-[40px] right-[28px] md:top-[20px] md:right-[20px]" 
         onMouseOver={() => setShowLenguageTip(!showLenguageTip)}
         onClick={() => handleChangeLanguage(i18next.language === 'es' ? 'en' : 'es')}
       >
