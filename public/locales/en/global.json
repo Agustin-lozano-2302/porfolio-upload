@@ -10,6 +10,7 @@
   "learnMore": "To know more",
   "myExperience": "+1 Year",
   "frontendDevExp": "Front end developer",
+  "completeSchool": "HighSchool completed",
   "education": "Education",
   "fullStackWebDev": "Full Stack Web Developer - Digital House",
   "bio": "Front end developer at IT Rock. Graduated from the Full Stack Web Developer course at Digital House, where I developed basic skills in technologies like Node.js, JavaScript, MySQL, and front end libraries like React. I am passionate about high-quality software development and continuous improvement of the development process. I also have an advanced level of English and skills to work in a team and communicate effectively with my colleagues and clients.",
@@ -29,8 +30,7 @@
   "nodejs": "Node JS",
   "nextjs": "Next js",
   "git": "Git",
+  "hereYouCan": "Here you can",
   "contactMe": "Contact me",
-  "email": "Agus.lozano.2302@gmail.com",
-  "linkedin": "LinkedIn",
   "copyright": "Copyright © 2024 Agustín Lozano. All Rights Reserved."
 }
