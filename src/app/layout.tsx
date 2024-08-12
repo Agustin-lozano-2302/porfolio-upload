@@ -26,10 +26,6 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <meta property="og:title" content="Agustin Lozano" />
-      <meta name="title" content="Agustin Lozano" />
-      <meta property="og:description" content="Porfolio Agustin Lozano" />
-      <meta name="description" content="Porfolio Agustin Lozano" />
       <body className="animate-fade animate-once animate-duration-1000">
         <App>{children} </App>
       </body>
