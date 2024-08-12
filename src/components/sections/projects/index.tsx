@@ -16,7 +16,7 @@ export default function Projects() {
     <section id="projects" className="flex w-full flex-col my-16 md:my-32 gap-24">
       <div className="flex flex-col m-auto text-center gap-4">
         <p className=" font-semibold opacity-60 text- md:text-lg">{t("myMostRecent")}</p>
-        <p className="text-3xl md:text-5xl font-bold">{t("Projects")}</p>
+        <p className="text-3xl md:text-5xl font-bold">{t("projects")}</p>
       </div>
       <div className="flex justify-center items-center gap-8 md:flex-row flex-col">
         {projects.map((project, index) => {

@@ -11,7 +11,7 @@ export default function Footer() {
       <div className="flex items-center gap-8 list-none md:flex-row flex-col">
         <Headling link="#about-me" fontW="font-normal" title={t("about")} />
         <Headling link="#skills" fontW="font-normal" title={t("experience")} />
-        <Headling link="#projects" fontW="font-normal" title={"Proyectos"} />
+        <Headling link="#projects" fontW="font-normal" title={"projects"} />
         <Headling link="#contact" fontW="font-normal" title={t("contact")} />
       </div>
       <p className=" text-sm md:text-base text-center  font-nomal opacity-60 m-4">Copyright © 2024 Agustín Lozano. All Rights Reserved.</p>
