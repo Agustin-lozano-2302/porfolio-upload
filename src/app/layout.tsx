@@ -12,6 +12,8 @@ import App from "./app";
 export const metadata: Metadata = {
   title: "Agustin Lozano",
   description: "Porfolio Agustin Lozano",
+  keywords: "Agustin Lozano",
+  applicationName: "Porfolio Agustin Lozano"
 };
 
 export default function RootLayout({
@@ -24,6 +26,8 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <meta property="og:title" content="Agustin Lozano" />
+      <meta property="og:description" content="Porfolio Agustin Lozano" />
       <body className="animate-fade animate-once animate-duration-1000">
         <App>{children} </App>
       </body>
