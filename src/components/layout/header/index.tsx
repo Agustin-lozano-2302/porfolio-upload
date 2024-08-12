@@ -32,7 +32,7 @@ export default function Header() {
               <path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round" />
             </svg>
           }
-          {openMenu && <div className="flex flex-col w-44 absolute left-[-50px] max-h-72 gap-4 justify-center animate-fade-down animate-duration-1000 bg-white p-3 rounded-lg">
+          {openMenu && <div className="flex flex-col w-44 absolute left-[10px]  max-h-72 gap-4 justify-center animate-fade-down animate-duration-1000 bg-white p-3 rounded-lg">
             <Headling link="#about-me" fontW="font-light" title={t("about")} />
             <Headling link="#skills" fontW="font-light" title={t("experience")} />
             <Headling link="#projects" fontW="font-light" title={t("projects")} />
