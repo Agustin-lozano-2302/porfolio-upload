@@ -18,7 +18,7 @@ export default function Header() {
 
   return (
     <nav className="flex justify-start md:justify-around md:gap-32 w-full h-[17vh] items-center">
-      <p className=" text-[2rem] md:block hidden mx-6 font-nomal">Agustín Lozano</p>
+      <button> <a href="/"><h1 className=" text-[2rem] md:block hidden mx-6 font-nomal">Agustín Lozano</h1></a></button>
       {actualWidth < 700 ?
         <div className="relative">
           {openMenu ?
