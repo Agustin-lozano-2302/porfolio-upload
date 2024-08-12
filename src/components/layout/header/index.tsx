@@ -35,14 +35,14 @@ export default function Header() {
           {openMenu && <div className="flex flex-col w-44 absolute left-[-50px] max-h-72 gap-4 justify-center animate-fade-down animate-duration-1000 bg-white p-3 rounded-lg">
             <Headling link="#about-me" fontW="font-light" title={t("about")} />
             <Headling link="#skills" fontW="font-light" title={t("experience")} />
-            {/* <Headling link="#projects" fontW="font-light" title={"Proyectos"} /> */}
+            <Headling link="#projects" fontW="font-light" title={"Proyectos"} />
             <Headling link="#contact" fontW="font-light" title={t("contact")} />
           </div>}
         </div> :
         <div className="flex items-center gap-8 list-none">
           <Headling link="#about-me" fontW="font-light" title={t("about")} />
           <Headling link="#skills" fontW="font-light" title={t("experience")} />
-          {/* <Headling link="#projects" fontW="font-light" title={"Proyectos"} /> */}
+          <Headling link="#projects" fontW="font-light" title={"Proyectos"} />
           <Headling link="#contact" fontW="font-light" title={t("contact")} />
         </div>
       }

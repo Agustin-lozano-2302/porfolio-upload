@@ -24,7 +24,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body>
+      <body className="animate-fade animate-once animate-duration-1000">
         <App>{children} </App>
       </body>
     </html>
