@@ -1,9 +1,15 @@
 "use client"
+import { useEffect } from "react";
 import Button from "../../common/button";
 import { useTranslation } from "react-i18next";
+import i18next from "i18next";
 
 export default function Hero() {
   const [t, i18n] = useTranslation("global")
+
+  useEffect(() => {
+    console.log(i18next.language)
+  }, [])
 
   return (
     <section className="flex-col md:flex-row flex justify-center gap-2 md:gap-24 w-full items-center my-14 md:my-32">
@@ -13,7 +19,7 @@ export default function Hero() {
         <p className="text-3xl md:text-5xl font-bold">Agustín Lozano</p>
         <p className="text-2xl md:text-4xl font-bold opacity-60">{t("frontendDeveloper")}</p>
         <div className="flex justify-center gap-4">
-          <Button link={{ name: "/files/agustin-lozano-cv.pdf", dowloadFile: "cv-agustin-lozano" }} text={t("downloadCV")} color="primary" />
+          <Button link={{ name: i18next.language === "en" ? "/files/lozano-agustin-cv-english.pdf" : "/files/lozano-agustin-cv-spanish.pdf", dowloadFile: "cv-agustin-lozano" }} text={t("downloadCV")} color="primary" />
           <Button link={{ name: "#contact" }} text={t("contactInfo")} color="secondary" />
         </div>
         <div>

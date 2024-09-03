@@ -26,7 +26,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className="animate-fade animate-once animate-duration-1000">
+      <body suppressHydrationWarning={true} className="animate-fade animate-once animate-duration-1000">
         <App>{children} </App>
       </body>
     </html>
