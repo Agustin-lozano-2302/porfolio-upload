@@ -13,7 +13,7 @@ export default function Hero() {
         <p className="text-3xl md:text-5xl font-bold">Agustín Lozano</p>
         <p className="text-2xl md:text-4xl font-bold opacity-60">{t("frontendDeveloper")}</p>
         <div className="flex justify-center gap-4">
-          <Button link={{ name: "/files/cv-agustin-lozano-1.pdf", dowloadFile: "cv-agustin-lozano" }} text={t("downloadCV")} color="primary" />
+          <Button link={{ name: "/files/agustin-lozano-cv.pdf", dowloadFile: "cv-agustin-lozano" }} text={t("downloadCV")} color="primary" />
           <Button link={{ name: "#contact" }} text={t("contactInfo")} color="secondary" />
         </div>
         <div>
